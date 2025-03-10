@@ -217,4 +217,3 @@ char *getFileType(char *path)
     }
     return NULL; // Return NULL if no match is found
 }
-
