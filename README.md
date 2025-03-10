@@ -21,8 +21,8 @@ This is a simple web server implemented in C that serves static files such as HT
 
 1. **Clone the Repository**:
    ```bash
-   git clone https://github.com/your-username/your-repo-name.git
-   cd 
+   git clone https://github.com/Keeththi2003/Webserver-in-C.git
+   cd Webserver-in-C
    ```
 2. **Complie the Server**:
     ```bash
