@@ -1,0 +1,71 @@
+/* style.css */
+
+/* Basic reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: #252525;
+    color: #f4f4f4;
+    padding: 20px;
+}
+
+nav {
+    background-color: #515151;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 20px;
+    font-size: 18px;
+    font-weight: 550;
+}
+
+nav a:hover {
+    background-color: #575757;
+}
+
+h3, h4 {
+    margin-top: 20px;
+    font-size: 24px;
+}
+
+div{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+img {
+    width: auto;
+    height: 400px;
+    display: block;
+    margin-top: 10px;
+    border-radius: 8px;
+}
+
+video {
+    width: auto;
+    margin-top: 20px;
+    text-align: end;
+    border-radius: 8px;
+}
+
+audio {
+    width: 50%;
+    margin-top: 20px;
+}
+embed{
+    width: 70%;
+    height: 400px;
+    margin-top: 20px;
+}
