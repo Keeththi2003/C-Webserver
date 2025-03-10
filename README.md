@@ -44,7 +44,7 @@ The server supports the following file types:
 - **HTML**: `.html`
 - **CSS**:`.css`
 - **Javascript**: `.js`
-- **Images**: `.jpg``.jpeg``.png`
+- **Images**: `.jpg` `.jpeg` `.png`
 - **Video**: `.mp4`
 - **Audio**: `.mp3`
 - **PDF**: `.pdf`
