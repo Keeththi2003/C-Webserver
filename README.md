@@ -35,36 +35,40 @@ This is a simple web server implemented in C that serves static files such as HT
     ```
 
 4. **Access the Server**:
-    Open your web browser and navigate to http://localhost:8080/.
+    Open your web browser and navigate to `http://localhost:8080/`.
 
 ## Supported File Types
 
 The server supports the following file types:
 
-- **HTML** .html
-- **CSS** .css
+- **HTML**: `.html`
+- **CSS**:`.css`
+- **Javascript**: `.js`
+- **Images**: `.jpg``.jpeg``.png`
+- **Video**: `.mp4`
+- **Audio**: `.mp3`
+- **PDF**: `.pdf`
 
 ## Error Handling
 
-- **404 Not Found**: If a requested file does not exist, the server responds with a custom 404.html page.
-- **405 Method Not Allowed**: If an unsupported HTTP method is used (e.g., POST), the server responds with a 405 Method Not Allowed error.
+- **404 Not Found**: If a requested file does not exist, the server responds with a custom `404.html` page.
+- **405 Method Not Allowed**: If an unsupported HTTP method is used (e.g., POST), the server responds with a `405 Method Not Allowed` error.
 
 ## Customization
 
-- **Port**: You can change the port the server listens on by modifying the PORT constant in server.c.
+- **Port**: You can change the port the server listens on by modifying the PORT constant in `server.c`.
 
-- **Error Pages**: You can customize the 404.html page or add other error pages as needed.
+- **Error Pages**: You can customize the `404.html` page or add other error pages as needed.
 
-- **File Types**: You can extend the getFileType function in server.c to support additional file types.
+- **File Types**: You can extend the `getFileType `function in `server.c` to support additional file types.
 
 
 ## Limitations
 
 - This server is designed for educational purposes and is not suitable for production use.
-
 - It does not support advanced HTTP features like caching, compression, or HTTPS.
 
-- It handles one client at a time and does not support concurrent connections.
+- It handles one client at a time and does not support concurrent connections.(In the future, I will upgrade te server to support multi-threading, allowing it to handle multiple clients concurrently.)
 
 ## Contributing
 
